@@ -29,6 +29,8 @@ const UserSchema = mongoose.Schema(
         motherAgent: String,
         // TODO: add rest of the about info
         followers:[],
+        following:[],
+        portfolio: [],
         groups: []
     },
     {timestamps: true}
